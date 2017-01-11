@@ -5,7 +5,7 @@ This is my first text file! WOW!!!!
 That has now been altered!
 
 
-I added this file in my text editor!!!!
+I changed this file in my text editor!!!!
 
 
 
