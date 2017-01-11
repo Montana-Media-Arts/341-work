@@ -1,7 +1,14 @@
 Name: Michael Musick
 Date: January 11th, 2017
 
-This is my first text file! YEAH!!!!
+This is my first text file! WOW!!!!
+That has now been altered!
 
 
-I added a new line to this file in my text editor!!!!
+I added this file in my text editor!!!!
+
+Adding a new line.
+And another.
+
+
+HAHAHAHAAHAAAAAAA
