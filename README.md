@@ -5,6 +5,19 @@
 
 [Main Site](https://montana-media-arts.github.io/mart341-webDev/)
 
+## Repository Info
+
+This is the main resource repository for MART341. Within here are;
+
+- code examples
+- homework examples
+- and other downloadable resources
+
+This is repository also contains the following;
+
+- [Homework Wiki](https://github.com/Montana-Media-Arts/341-work/wiki), which is where you will submit all homework assignments, as well as be able to see your fellow classmates work.
+- ["Issues"](https://github.com/Montana-Media-Arts/341-work/issues), where you can ask for help with problems you are having and help fellow classmates with there problems. 
+
 ## COURSE OVERVIEW
 This course is intended to make you comfortable with presenting yourself through the web. In addition, you will learn skills that should allow you to build, manage, and develop websites.
 
