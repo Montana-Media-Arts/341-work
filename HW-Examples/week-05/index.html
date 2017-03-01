@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Week 5 HW</title>
+</head>
+
+<body>
+    <!-- Main heading section -->
+    <h1>
+        <img src="./imgs/buff_icon_left.png" alt="Buffalo Icon" title="Buffalo Icon" width="75" height="75">
+        The Buffalo Questionnaire
+        <img src="./imgs/buff_icon_right.png" alt="Buffalo Icon" title="Buffalo Icon" width="75" height="75">
+    </h1>
+
+    <form class="buff_form" action="#" method="get">
+
+        <fieldset>
+            <label for="name">What is your name?</label>
+            <input type="text" name="name" placeholder="Your name" autofocus required>
+            <br />
+
+            <label for="email">What is your email?</label>
+            <input type="email" name="email" placeholder="example@me.com" required>
+            <br />
+
+            <fieldset>
+                <label for="traits">What are your traits? (select all that apply)</label><br />
+                <input type="checkbox" name="traits" value="happy"> Happy<br />
+                <input type="checkbox" name="traits" value="funny"> Funny<br />
+                <input type="checkbox" name="traits" value="serious"> Serious<br />
+                <input type="checkbox" name="traits" value="no fun"> No fun...<br />
+            </fieldset>
+            <fieldset>
+                <label for="food">What is your preferred food? (choose one)</label><br />
+                <input type="radio" name="food" value="pasta"> Pasta<br />
+                <input type="radio" name="food" value="pizza"> Pizza<br />
+                <input type="radio" name="food" value="grass"> Grass<br />
+                <input type="radio" name="food" value="uni"> Uni<br />
+            </fieldset>
+
+            <label for="story">Please enter the story of the Buffalo...</label>
+            <textarea name="story" cols="20" rows="4" style="min-width:100%">The Buffalo is...</textarea>
+
+            <input type="submit" name="submit" value="Submit" />
+
+        </fieldset>
+
+    </form>
+
+    <!-- image as a link -->
+    <div class="image">
+        <a href="http://michaelmusick.com">
+            <img src="./imgs/Buff_Photo.jpg" alt="Image of a buffalo in Yellowstone" title="Image of a buffalo in Yellowstone" width="800" height="332">
+        </a>
+    </div>
+</body>
+
+</html>
