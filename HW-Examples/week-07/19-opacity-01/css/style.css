@@ -1,0 +1,25 @@
+body {
+    font-size: 24pt;
+    color: white;
+}
+.box-1 {
+    background-color: rgb(255, 0, 0);
+    height: 250px;
+}
+
+.box-1-inner {
+    background-color: rgb(0, 255, 0);
+    opacity: 0.5;
+    width: 60%;
+    height: 300px;
+    margin-left: 20%;
+}
+
+.box-2 {
+    background-color: rgba(0, 0, 255, 0.5);
+    position: absolute;
+    left: 50px;
+    top: 130px;
+    width: 40%;
+    height: 300px;
+}
