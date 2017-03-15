@@ -1,0 +1,31 @@
+body {
+    background-color: #dddfd4;
+}
+
+header {
+    background-color: #3fb0ac;
+    padding: 75px;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+main {
+    background-color: #173e43;
+    flex: 1 3 auto;
+    padding: 200px;
+}
+
+aside {
+    background-color: #fae596;
+    flex: 1 1 auto;
+    padding: 10px;
+}
+
+footer {
+    background-color: #3fb0ac;
+    padding: 75px;
+}
