@@ -12,7 +12,7 @@ body {
     opacity: 0.5;
     width: 60%;
     height: 300px;
-    margin-left: 20%;
+    margin-left: 10%;
 }
 
 .box-2 {
@@ -22,4 +22,15 @@ body {
     top: 130px;
     width: 40%;
     height: 300px;
+}
+
+.image-box {
+    position: absolute;
+    top: 150px;
+    left: 0px;
+    opacity: 0.5;
+}
+
+img {
+    width: 150%;
 }
