@@ -1,0 +1,28 @@
+
+.one {
+    font-family: 'Playfair', sans-serif;
+    font-weight: normal;
+}
+.two {
+    font-family: 'Playfair', sans-serif;
+    font-weight: normal;
+    font-style: italic;
+}
+.three {
+    font-family: 'Playfair', sans-serif;
+    font-weight: bold;
+}
+.four {
+    font-family: 'Playfair', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+}
+.five {
+    font-family: 'Playfair', sans-serif;
+    font-weight: 900;
+}
+.six {
+    font-family: 'Playfair', sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}

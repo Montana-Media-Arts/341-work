@@ -1,28 +1,24 @@
+@font-face {
+    font-family: 'monoton';
+    src:
+        url('../fonts/monoton-regular.woff2') format('woff2'),
+        url('../fonts/monoton-regular.woff') format('woff'),
+        url('../fonts/monoton-regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Source Code Pro';
+    src:
+        url('../fonts/SourceCodePro-Light.woff') format('woff'),
+        url('../fonts/SourceCodePro-Light.woff2') format('woff2'),
+        url('../fonts/SourceCodePro-Light.otf') format('opentype'),
+        url('../fonts/SourceCodePro-Light.ttf') format('truetype');
+}
 
-.one {
-    font-family: 'Playfair', sans-serif;
-    font-weight: normal;
+.main-heading {
+    font-family: 'monoton', sans-serif;
+    font-size: 3em;
 }
-.two {
-    font-family: 'Playfair', sans-serif;
-    font-weight: normal;
-    font-style: italic;
-}
-.three {
-    font-family: 'Playfair', sans-serif;
-    font-weight: bold;
-}
-.four {
-    font-family: 'Playfair', sans-serif;
-    font-weight: bold;
-    font-style: italic;
-}
-.five {
-    font-family: 'Playfair', sans-serif;
-    font-weight: 900;
-}
-.six {
-    font-family: 'Playfair', sans-serif;
-    font-weight: 900;
-    font-style: italic;
+
+.content {
+    font-family: 'Source Code Pro', serif;
 }
