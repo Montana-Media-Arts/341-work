@@ -1,0 +1,73 @@
+@font-face {
+    font-family: 'Playfair';
+    src:
+        url('../fonts/PlayfairDisplay-Regular.ttf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Playfair';
+    src:
+        url('../fonts/PlayfairDisplay-Italic.ttf') format('opentype');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Playfair';
+    src:
+        url('../fonts/PlayfairDisplay-Bold.ttf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Playfair';
+    src:
+        url('../fonts/PlayfairDisplay-BoldItalic.ttf') format('opentype');
+    font-weight: bold;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Playfair';
+    src:
+        url('../fonts/PlayfairDisplay-Black.ttf') format('opentype');
+    font-weight: 900;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Playfair';
+    src:
+        url('../fonts/PlayfairDisplay-BlackItalic.ttf') format('opentype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+
+
+
+.one {
+    font-family: 'Playfair', sans-serif;
+    font-weight: normal;
+}
+.two {
+    font-family: 'Playfair', sans-serif;
+    font-weight: normal;
+    font-style: italic;
+}
+.three {
+    font-family: 'Playfair', sans-serif;
+    font-weight: bold;
+}
+.four {
+    font-family: 'Playfair', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+}
+.five {
+    font-family: 'Playfair', sans-serif;
+    font-weight: 900;
+}
+.six {
+    font-family: 'Playfair', sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
