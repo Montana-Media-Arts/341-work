@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Letter Spacing Example</title>
+
+        <style>
+        .example-container h2 {
+            font-family: "Helvetica", sans-serif;
+            line-height: 1.5em;
+            font-weight: 100;
+            margin-bottom: 2em;
+            text-align: center;
+        }
+
+        h2.no-space {
+            letter-spacing: normal;
+        }
+
+        h2.some-space {
+            letter-spacing: 0.3em;
+        }
+
+        h2.lots-space {
+            letter-spacing: 1.5em;
+        }
+
+        h2.negative-space {
+            letter-spacing: -0.1em;
+        }
+        </style>
+    </head>
+
+    <body>
+        <div class="example-container">
+            <h2 class="no-space">No Space Applied</h2>
+            <h2 class="some-space">Some Space Applied</h2>
+            <h2 class="lots-space">A Lot of Space Applied</h2>
+            <h2 class="negative-space">Negative Space Applied</h2>
+        </div>
+    </body>
+</html>
