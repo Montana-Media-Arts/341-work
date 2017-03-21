@@ -1,0 +1,47 @@
+.main-container div {
+    font-size: 1.5em;
+    background-color: #dfc0ed;
+    margin: 1em;
+    padding: 1em;
+}
+.main-container div p {
+    background-color: #eaf7f5;
+}
+.parent-1 {
+    line-height: 1;
+}
+.parent-1 .p2 {
+    line-height: 0.5;
+}
+.parent-1 .p3 {
+    line-height: 2;
+}
+.parent-1 .p4 {
+    line-height: 1.4;
+}
+
+.parent-2 {
+    line-height: 100%;
+}
+.parent-2 .p2 {
+    line-height: 50%;
+}
+.parent-2 .p3 {
+    line-height: 200%;
+}
+.parent-2 .p4 {
+    line-height: 140%;
+}
+
+.parent-3 {
+    line-height: 1em;
+}
+.parent-3 .p2 {
+    line-height: 0.5em;
+}
+.parent-3 .p3 {
+    line-height: 2em;
+}
+.parent-3 .p4 {
+    line-height: 1.4em;
+}
