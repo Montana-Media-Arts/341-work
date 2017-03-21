@@ -5,43 +5,30 @@
     padding: 1em;
 }
 .main-container div p {
-    background-color: #eaf7f5;
+    background-color: #fff;
+    /*margin: 1em;*/
+    padding: 1em;
 }
 .parent-1 {
-    line-height: 1;
-}
-.parent-1 .p2 {
-    line-height: 0.5;
-}
-.parent-1 .p3 {
-    line-height: 2;
-}
-.parent-1 .p4 {
-    line-height: 1.4;
+    line-height: 1.45em;
 }
 
 .parent-2 {
-    line-height: 100%;
-}
-.parent-2 .p2 {
-    line-height: 50%;
-}
-.parent-2 .p3 {
-    line-height: 200%;
-}
-.parent-2 .p4 {
-    line-height: 140%;
+    line-height: 1.0em;
 }
 
 .parent-3 {
-    line-height: 1em;
+    line-height: 0.75em;
 }
-.parent-3 .p2 {
-    line-height: 0.5em;
+
+.parent-4 {
+    line-height: 0.1em;
 }
-.parent-3 .p3 {
-    line-height: 2em;
+
+.parent-5 {
+    line-height: 2.0em;
 }
-.parent-3 .p4 {
-    line-height: 1.4em;
+
+.parent-6 {
+    line-height: 4.0em;
 }
