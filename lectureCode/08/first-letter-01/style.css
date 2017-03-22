@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Gentium+Book+Basic:400,700');
+
+.parent-container {
+    background-color: rgb(147, 12, 76);
+    padding: 1em;
+}
+
+.text-block {
+    font-family: 'Gentium Book Basic', serif;
+    font-weight: 400;
+    font-size: 1.5em;
+    padding: 1em;
+    margin: 1em;
+    background-color: #fff;
+    text-indent: 1.5em;
+    line-height: 1.5em;
+}
+
+/* Select the first paragraph child of .text-block */
+
+.text-block p:first-child {
+    text-indent: 0;
+}
+
+/* Select the first letter that occurs in the .text-block */
+.text-block::first-letter {
+    font-size: 4em;
+    font-weight: 700;
+    color: rgb(11, 44, 126);
+    /*padding: 0.1em;*/
+}
