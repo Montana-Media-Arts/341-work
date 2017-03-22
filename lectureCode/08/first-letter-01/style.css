@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Gentium+Book+Basic:400,700');
 
-.parent-container {
+body {
     background-color: rgb(147, 12, 76);
+}
+.parent-container {
     padding: 1em;
 }
 
