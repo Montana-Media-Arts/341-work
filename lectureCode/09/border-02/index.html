@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Border Example</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            .parent-container-03 {
+                border: 3px solid #000;
+                border-radius: 20px;
+                background-color: #ecea16;
+                max-width: 400px;
+                padding: 2em;
+                margin: auto;
+            }
+            .child-container-03 {
+                width: 75%;
+                margin: 1em auto;
+                padding: 1em;
+                text-align: center;
+                border: 10px solid #fff;
+                background-color: #3fa1a4;
+            }
+            .border-01 {
+                border-radius: 100%;
+            }
+            .border-02 {
+                border-radius: 100px;
+            }
+            .border-03 {
+                border-radius: 3em 10em 10em 2em / 10em 3em 10em 2em;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="parent-container-03">
+            <div class="child-container-03 border-01">
+                <em>Great Curved Borders.</em>
+                <br>What fun these are.
+                <br>What a nice oval
+            </div>
+            <div class="child-container-03 border-02">
+                <em>Great Curved Borders.</em>
+                <br>What fun these are.
+                <br>Its like a rounded rectangle.
+            </div>
+            <div class="child-container-03 border-03">
+                <em>Great Curved Borders.</em>
+                <br>Different Corners!
+                <br>Mind = Blown
+            </div>
+        </div>
+
+    </body>
+</html>

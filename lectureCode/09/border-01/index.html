@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Border Example</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            .parent-container-01 {
+                background-color: #ecea16;
+                max-width: 400px;
+                padding: 2em;
+                margin: auto;
+                margin-bottom: 1em;
+            }
+            .child-container-01 {
+                background-color: #3fa1a4;
+                width: 75%;
+                margin: auto;
+                padding: 1em;
+                text-align: center;
+            }
+            .parent-container-02 {
+                background-color: #ecea16;
+                max-width: 400px;
+                padding: 2em;
+                margin: auto;
+                border-width: 1em;
+                border-style: outset;
+                border-color: #262626;
+            }
+            .child-container-02 {
+                border-width: 2em;
+                border-style: solid;
+                border-color: #262626;
+                background-color: #3fa1a4;
+                width: 75%;
+                margin: auto;
+                padding: 1em;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="parent-container-01">
+            <div class="child-container-01">
+                <em>No borders....</em>
+            </div>
+        </div>
+        <div class="parent-container-02">
+            <div class="child-container-02">
+                <em>Big Thick Borders!</em>
+            </div>
+        </div>
+    </body>
+</html>
