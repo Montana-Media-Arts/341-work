@@ -1,0 +1,35 @@
+.display-inline {
+    display: inline;
+    /*line-height: 2em;*/
+    margin-top: 2.5em;
+}
+
+.display-inline-block {
+    display: inline-block;
+}
+
+header {
+    /*border: 2px solid #302d37;*/
+    background-color: #d0d0d0;
+    font-family: sans-serif;
+    font-size: 28pt;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    padding: 0.5em;
+}
+
+
+.menu-item {
+    margin: auto;
+    padding: 0.5em;
+    /*width: 200px;*/
+    width: 20%;
+    min-width: 200px;
+    color: #fff;
+    background-color: #673645;
+}
+
+.menu-item:hover {
+    background-color: #673667;
+}
