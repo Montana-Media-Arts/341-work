@@ -1,0 +1,27 @@
+.container {
+    font-family: sans-serif;
+    font-size: 16pt;
+    width: 100%;
+    min-width: 200px;
+    max-width: 500px;
+    background-color: #3eb4da;
+}
+
+.tip-header {
+    font-size: 1.5em;
+    padding: 1em;
+    text-align: center;
+    color: #fff;
+    background-color: #18516e;
+}
+
+
+.hidden-content {
+    display: none;
+    font-size: 1em;
+    padding: 1em;
+}
+
+.container:hover .hidden-content {
+    display: block;
+}
