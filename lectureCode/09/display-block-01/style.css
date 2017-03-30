@@ -1,0 +1,27 @@
+.display-block {
+    display: block;
+}
+
+
+ul {
+    background-color: #d0d0d0;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    list-style-type: none;
+    margin: 0px;
+    margin-bottom: 10px;
+    padding: 0px;
+    line-height: 1.3em;
+}
+
+
+.menu-item {
+    text-decoration: none;
+    width: 100px;
+    color: #fff;
+    background-color: #673645;
+}
+
+.menu-item:hover {
+    background-color: #c172c1;
+}
