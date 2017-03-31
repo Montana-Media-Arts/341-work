@@ -14,10 +14,14 @@
             margin: auto;
         }
 
-        .example-container .move-this-p {
-            position: relative;
-            top: 4em;
+        .example-container .absolute-element {
+            position: absolute;
+            top: 20px;
             left: 100px;
+            max-width: 300px;
+            font-size: 2em;
+            opacity: 0.8;
+            text-align: center;
             color: #000;
             background-color: #e8e18c;
         }
@@ -34,10 +38,15 @@
 <body>
 
     <div class="example-container">
-        <h1>"Position: Relative" Example</h1>
+
+        <h1>"Position: Absolute" Example</h1>
+
         <p class="default-p">Minim do aute esse non quis anim qui cupidatat quis mollit magna tempor anim aliquip. Cillum Lorem excepteur consectetur esse veniam do aliquip deserunt anim anim do velit commodo. Sint pariatur incididunt fugiat aliquip adipisicing exercitation occaecat. Excepteur consectetur amet consequat eiusmod deserunt reprehenderit enim elit.</p>
-        <p class="move-this-p">Notice that this paragraph is moved relative to where it would normally be positioned. This movement is so great that it is overlapping the paragraph below it. Also note that the amount of space the paragraph would have taken up in "normal flow" is still reserved. </p>
-        <p class="default-p">Proident nulla ut velit occaecat non est officia eiusmod ut Lorem laborum irure exercitation non enim. Tempor duis amet eiusmod sint ipsum id tempor nostrud magna ea incididunt laborum. Non in adipisicing voluptate consequat irure amet aute enim eu sit velit veniam cupidatat non minim. Est laboris cupidatat do mollit proident fugiat cupidatat magna anim magna deserunt exercitation aliquip. Voluptate magna elit qui elit ea enim proident.</p>
+
+        <p class="absolute-element">I am placed wherever you want.</p>
+
+        <p class="default-p">Minim do aute esse non quis anim qui cupidatat quis mollit magna tempor anim aliquip. Cillum Lorem excepteur consectetur esse veniam do aliquip deserunt anim anim do velit commodo. Sint pariatur incididunt fugiat aliquip adipisicing exercitation occaecat. Excepteur consectetur amet consequat eiusmod deserunt reprehenderit enim elit.</p>
+
     </div>
 
 </body>
