@@ -26,9 +26,13 @@ header {
 
 }
 
+.menu-item:first-child {
+    margin-left: 1em;
+}
+
 .site-name {
     float: right;
-    padding-right: 1em;
+    padding-right: 2em;
     color: #ff0000;
 }
 
@@ -79,6 +83,6 @@ header {
 
 .main-container {
     margin-top: 5em;
-    padding: 1em;
+    padding: 1em 2em;
     line-height: 1.4em;
 }
