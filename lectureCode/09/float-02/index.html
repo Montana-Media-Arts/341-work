@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Float Example</title>
+
+        <style>
+            .ex1-container {
+                max-width: 600px;
+                border: 1px solid black;
+                padding: 1em;
+                text-align: justify;
+            }
+            .red-square {
+                width: 6em;
+                height: 8em;
+                margin: 0.25em;
+                background-color: #ff0000;
+            }
+            .float .red-square {
+                float: left;
+            }
+            .float .float-right {
+                float: right;
+            }
+            .float .clear-left {
+                clear: left;
+            }
+        </style>
+    </head>
+    <body>
+
+        <main class="ex1-container float">
+
+            <div class="red-square"></div>
+            <div class="red-square"></div>
+            <div class="red-square float-right"></div>
+
+            <h2>Float example</h2>
+
+            <p class="clear-left">Nostrud anim velit sint minim proident labore ullamco labore occaecat eiusmod occaecat et. Eu cupidatat eu quis dolor cillum laboris dolor culpa ut amet duis cillum. Culpa proident culpa fugiat duis esse ex mollit ea occaecat. Ex consectetur excepteur dolore cillum Lorem sit quis ea proident pariatur pariatur dolore proident. Quis cupidatat Lorem id amet esse nulla consequat aliquip sint ad.</p>
+        </main>
+
+    </body>
+</html>
