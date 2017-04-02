@@ -7,20 +7,15 @@ body {
     margin: 0;
 }
 
-
-
-
 .main-container {
     margin: auto;
     margin-top: 0;
     padding-top: 0;
-    min-width: 600px;
+    min-width: 900px;
     max-width: 1280px;
     background-color: #ffffff;
     clear: both;
 }
-
-
 
 .main-container main {
     margin: 0;
@@ -28,7 +23,6 @@ body {
     /*float: left;*/
     height: 100%;
     background-color: #ffffff;
-
 }
 
 .main-container h1 {
@@ -36,7 +30,7 @@ body {
     font-weight: lighter;
     letter-spacing: 0.4em;
     word-spacing: 1em;
-    padding: 2em 0 1em 0;
+    padding: 2em 1em 1em 1em;
     margin-top: 0 !important;
     color: #000;
     background-color: #fff;
@@ -49,8 +43,6 @@ body {
     line-height: 1.5em;
     text-align: justify;
 }
-
-
 
 .main-container aside.content-side {
     float: right;
@@ -81,7 +73,6 @@ aside .aside-text p {
     margin: 0;
     text-align: left;
 }
-
 
 aside .aside-img img {
     display: block;
