@@ -1,0 +1,12 @@
+body {
+    font-size: 16pt;
+    font-family: 'Helvetica Neue', 'helvetica', sans-serif;
+    background-color: #aaaaaa;
+    /*background-color: #fff;*/
+    padding: 0;
+    margin: 0;
+}
+
+.clearfix {
+    clear: both;
+}

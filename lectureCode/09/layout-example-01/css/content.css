@@ -1,0 +1,107 @@
+
+div.main-container {
+    position: relative;
+    top: -1em;
+    margin: auto;
+    padding-top: 0;
+    background-color: #ffffff;
+    clear: both;
+}
+
+.main-container menu {
+    margin: 0;
+    padding: 0;
+    padding-top: 2em;
+    float: left;
+    width: 20%;
+    height: 1000px;
+    background-color: #b4b4b4;
+}
+.main-container .site-name {
+    display: none;
+    padding: 1em 0.5em;
+    width: 100%;
+    margin-left: 0;
+    font-weight: lighter;
+    font-size: 1.5em;
+    color: #fff;
+    background-color: #507aa6;
+}
+
+.side.side-menu-item {
+    margin-top: 1em;
+}
+
+.side.menuitem {
+    display: block;
+    font-size: 1em;
+    font-weight: lighter;
+    padding: 0.5em;
+    margin: 0.1em 0;
+    text-decoration: none;
+    background-color: #73d2a2;
+    color: #fff;
+}
+
+.side.menuitem:hover {
+    background-color: #bf628c;
+    color: #fff;
+}
+
+
+
+.side .dropdown-content {
+    display: none;
+
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.menuitem.dropdown-item {
+    font-size: 0.8em;
+    padding-left: 2em;
+    margin-top: 0.05em;
+    background-color: #bf628c;
+    color: #fff;
+}
+
+.dropdown:hover .dropdown-content .side.menuitem.dropdown-item:hover {
+    background-color: #fff;
+    color: #bf628c;
+}
+
+
+
+
+.main-container main {
+    margin: auto;
+    padding: 0;
+    width: 80%;
+    min-width: 399px;
+    max-width: 960px;
+    height: 100%;
+    background-color: #ffffff;
+
+}
+
+.main-container h1 {
+    font-size: 2.5em;
+    text-align: center;
+    font-weight: lighter;
+    letter-spacing: 0.4em;
+    word-spacing: 1em;
+    padding: 2em 0em 1em 1.5em;
+    margin-top: 0 !important;
+    color: #000;
+    background-color: #fff;
+    /*border-radius: 20px;*/
+}
+
+.main-container p {
+    padding: 1em 3em;
+    text-indent: 1.5em;
+    line-height: 1.5em;
+    text-align: justify;
+}
