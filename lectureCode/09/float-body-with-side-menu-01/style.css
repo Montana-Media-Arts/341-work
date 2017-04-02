@@ -1,0 +1,122 @@
+body {
+    font-size: 16pt;
+    font-family: 'Helvetica Neue', 'helvetica', sans-serif;
+    /*background-color: #aaaaaa;*/
+    background-color: #fff;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+.main-container {
+    margin: auto;
+    margin-top: 0;
+    padding-top: 0;
+    min-width: 600px;
+    max-width: 1280px;
+    background-color: #ffffff;
+    clear: both;
+}
+
+.main-container menu {
+    margin: 0;
+    padding: 0;
+    float: left;
+    width: 25%;
+    height: 1000px;
+    background-color: #808080;
+}
+.site-name {
+    padding: 1em 0.5em;
+    margin-left: 0;
+    font-weight: lighter;
+    font-size: 1.5em;
+    color: #fff;
+    background-color: #507aa6;
+}
+
+.site-logo {
+    font-size: 2.5em;
+    float: right;
+    padding: 10px;
+    margin-right: 0.25em;
+}
+
+.site-logo img {
+    height: 70px;
+}
+
+.side.menuitem {
+    display: block;
+    font-size: 1em;
+    font-weight: lighter;
+    padding: 0.5em;
+    margin: 0.1em 0;
+    text-decoration: none;
+    background-color: #73d2a2;
+    color: #fff;
+}
+
+.side.menuitem:hover {
+    background-color: #bf628c;
+    color: #fff;
+}
+
+
+
+.dropdown-content {
+    display: none;
+
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.side.menuitem.dropdown-item {
+    font-size: 0.8em;
+    padding-left: 2em;
+    margin-top: 0.05em;
+    background-color: #bf628c;
+    color: #fff;
+}
+
+.dropdown:hover .dropdown-content .side.menuitem.dropdown-item:hover {
+    background-color: #fff;
+    color: #bf628c;
+}
+
+
+
+
+.main-container main {
+    margin: 0;
+    padding: 0;
+    float: left;
+    width: 75%;
+    min-width: 399px;
+    height: 100%;
+    background-color: #ffffff;
+
+}
+
+.main-container h1 {
+    text-align: center;
+    font-weight: lighter;
+    letter-spacing: 0.4em;
+    word-spacing: 1em;
+    padding: 2em 0 1em 0;
+    margin-top: 0 !important;
+    color: #000;
+    background-color: #fff;
+    /*border-radius: 20px;*/
+}
+
+.main-container p {
+    padding: 1em 2em;
+    text-indent: 1.5em;
+    line-height: 1.5em;
+    text-align: justify;
+}
