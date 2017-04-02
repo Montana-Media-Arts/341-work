@@ -1,0 +1,36 @@
+body {
+    font-size: 16pt;
+    font-family: 'Helvetica Neue', 'helvetica', sans-serif;
+    background-color: #aaaaaa;
+    padding: 0;
+    margin: 0;
+}
+
+.main-container {
+    margin: auto;
+    margin-top: 0;
+    padding-top: 0;
+    width: 75%;
+    min-width: 600px;
+    max-width: 960px;
+    background-color: #ffffff;
+}
+
+.main-container h1 {
+    text-align: center;
+    font-weight: 200;
+    letter-spacing: 0.4em;
+    word-spacing: 1em;
+    padding: 1em;
+    margin-top: 0 !important;
+    color: #fff;
+    background-color: #507aa6;
+    /*border-radius: 20px;*/
+}
+
+.main-container p {
+    padding: 1em 2em;
+    text-indent: 1.5em;
+    line-height: 1.5em;
+    text-align: justify;
+}
