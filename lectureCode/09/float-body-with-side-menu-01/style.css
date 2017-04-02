@@ -7,9 +7,6 @@ body {
     margin: 0;
 }
 
-
-
-
 .main-container {
     margin: auto;
     margin-top: 0;
@@ -28,6 +25,7 @@ body {
     height: 1000px;
     background-color: #808080;
 }
+
 .site-name {
     padding: 1em 0.5em;
     margin-left: 0;
@@ -64,11 +62,8 @@ body {
     color: #fff;
 }
 
-
-
 .dropdown-content {
     display: none;
-
 }
 
 .dropdown:hover .dropdown-content {
@@ -88,9 +83,6 @@ body {
     color: #bf628c;
 }
 
-
-
-
 .main-container main {
     margin: 0;
     padding: 0;
@@ -99,7 +91,6 @@ body {
     min-width: 399px;
     height: 100%;
     background-color: #ffffff;
-
 }
 
 .main-container h1 {
