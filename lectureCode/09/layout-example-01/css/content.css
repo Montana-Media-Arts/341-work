@@ -10,10 +10,12 @@ div.main-container {
 
 .main-container menu {
     margin: 0;
+    margin-right: 2em;
     padding: 0;
     padding-top: 2em;
     float: left;
     width: 20%;
+    min-width: 200px;
     height: 1000px;
     background-color: #b4b4b4;
 }

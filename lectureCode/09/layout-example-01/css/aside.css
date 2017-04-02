@@ -4,6 +4,7 @@ aside.content-side {
     margin-top: 2.5em;
     padding: 0;
     width: 15%;
+    min-width: 200px;
     color: #fff;
     background-color: #507aa6;
     font-weight: lighter;
