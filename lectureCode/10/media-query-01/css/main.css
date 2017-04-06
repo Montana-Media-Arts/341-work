@@ -2,3 +2,7 @@ body {
     font-family: sans-serif;
     background-color: #fff;
 }
+
+a {
+    color: #000;
+}
