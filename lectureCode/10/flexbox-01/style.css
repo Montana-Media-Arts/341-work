@@ -1,0 +1,26 @@
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-item {
+    flex: auto;
+    height: 100px;
+    min-width: 250px;
+}
+
+.red {
+    background-color: #ff0000;
+}
+.blue {
+    background-color: #0057ff;
+}
+.green {
+    background-color: #00ff03;
+}
+.yellow {
+    background-color: #fffc00;
+}
+.orange {
+    background-color: #ffb000;
+}
