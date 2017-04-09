@@ -1,0 +1,66 @@
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-item {
+    text-align: center;
+}
+
+.red {
+    background-color: #ff0000;
+    order: 1;
+    width: 100%;
+}
+.blue {
+    background-color: #0057ff;
+    order: 2;
+    width: 16%;
+}
+.green {
+    background-color: #00ff03;
+    order: 3;
+    width: 68%;
+    height: 300px;
+}
+.yellow {
+    background-color: #fffc00;
+    order: 4;
+    width: 16%;
+}
+.orange {
+    background-color: #ffb000;
+    order: 5;
+    width: 100%;
+}
+
+
+@media (max-width: 1000px) {
+    .blue {
+        order: 2;
+        width: 33%;
+    }
+    .green {
+        order: 3;
+        width: 67%;
+    }
+    .yellow {
+        order: 4;
+        width: 100%;
+    }
+}
+
+@media (max-width: 550px) {
+    .blue {
+        order: 3;
+        width: 100%;
+    }
+    .green {
+        order: 2;
+        width: 100%;
+    }
+    .yellow {
+        order: 4;
+        width: 100%;
+    }
+}
