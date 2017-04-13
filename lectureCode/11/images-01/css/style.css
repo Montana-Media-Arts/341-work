@@ -6,26 +6,30 @@ body {
 .container {
     display: flex;
     flex-flow: wrap;
+    align-items: center;
+    background-color: black;
 }
 
 .container img {
     width: 100%;
-    /*height: auto;*/
+    height: 62.5%;
 }
 
 .container .content-1 {
     width: 100%;
-    padding: 3%;
+    padding: 1.5%;
     color: #fff;
     background-color: #404040;
+    text-align: justify;
 }
 
-@media (min-width: 850px) {
+@media (min-width: 650px) {
     .container img {
-        width: 33.33333%;
+        width: 66.66666%;
         /*height: auto;*/
     }
     .container .content-1 {
-        width: 60.6666%;
+        width: 30.33333%;
+        height: 100%;
     }
 }
