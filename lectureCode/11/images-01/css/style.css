@@ -26,7 +26,6 @@ body {
 @media (min-width: 650px) {
     .container img {
         width: 66.66666%;
-        /*height: auto;*/
     }
     .container .content-1 {
         width: 30.33333%;
