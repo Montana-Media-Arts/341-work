@@ -1,0 +1,18 @@
+.container {
+    background-image: url("./imgs/instructorIsLost.jpg");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-color: #000;
+    height: 400px;
+    color: #fff;
+    text-align: center;
+    display: flex;
+}
+
+.container p {
+    margin: auto;
+    width: 80%;
+    min-width: 200px;
+    font-size: 18pt;
+    align-content: center;
+}
