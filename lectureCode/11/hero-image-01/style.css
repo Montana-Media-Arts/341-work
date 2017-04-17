@@ -11,7 +11,6 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-
 }
 
 .hero .title {
@@ -22,26 +21,27 @@ body {
     margin-left: 1em;
     margin-right: 1em;
     padding: 2em;
-    /*padding-top: 100px;*/
-    /*padding-right: 7%;*/
-    font-family: cursive;
     text-align: center;
     background-color: rgba(120, 120, 120, 0.3);
-
 }
 
 .title h1 {
+    font-family: 'Princess Sofia', cursive;
     font-size: 2.5em;
     letter-spacing: 0.2em;
 }
 
 .title h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    font-style: italic;
     line-height: 0.5em;
 }
 
 .hero .nav {
-    font-family: sans-serif;
-    font-weight: 100;
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: italic;
+    font-weight: 300;
     color: #fff;
     margin-top: 2em;
     font-size: 1.5em;
