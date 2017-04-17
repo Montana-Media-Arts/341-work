@@ -5,7 +5,10 @@ body {
 }
 
 .hero {
-    height: 1000px;
+    /* the 'vh' unit asks the browser to */
+    /* return the height of the viewport */
+    /* we can then use that to set the height of an element */
+    height: 100vh;
     background-image: url("imgs/hero-image-2.jpg");
     /*background-image: url("imgs/hero-image.jpg");*/
     background-position: center;
@@ -71,9 +74,6 @@ body {
 
 
 @media (max-width: 865px) {
-    .hero {
-        height: 800px;
-    }
     .hero .title {
         font-size: 18pt;
     }
@@ -88,9 +88,6 @@ body {
 }
 
 @media (max-width: 445px) {
-    .hero {
-        height: 700px;
-    }
     .hero .title {
         font-size: 12pt;
     }
