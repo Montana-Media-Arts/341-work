@@ -6,7 +6,7 @@ body {
 
 .bgimg-1, .bgimg-2, .bgimg-3 {
     position: relative;
-    /*opacity: 0.65;*/
+    opacity: 0.65;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
