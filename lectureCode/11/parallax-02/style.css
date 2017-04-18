@@ -1,48 +1,48 @@
 body {
     margin: 0;
-    font: 400 15px/1.8 "Lato", sans-serif;
     color: #777;
+    font: 400 15px/1.8 "Lato", sans-serif;
 }
 
 .bgimg-1, .bgimg-2, .bgimg-3 {
     position: relative;
-    opacity: 0.65;
+    /*opacity: 0.65;*/
+    background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
-    background-repeat: no-repeat;
     background-size: cover;
 }
 
 .bgimg-1 {
-    background-image: url("imgs/img_parallax.jpg");
     min-height: 100vh;
+    background-image: url("imgs/img_parallax.jpg");
 }
 
 .bgimg-2 {
-    background-image: url("imgs/img_parallax2.jpg");
     min-height: 400px;
+    background-image: url("imgs/img_parallax2.jpg");
 }
 
 .bgimg-3 {
-    background-image: url("imgs/img_parallax3.jpg");
     min-height: 400px;
+    background-image: url("imgs/img_parallax3.jpg");
 }
 
 .hero {
+    padding: 50px 80px;
     color: #777;
     background-color: white;
     text-align: center;
-    padding: 50px 80px;
     text-align: justify;
 }
 
 .caption {
     position: absolute;
-    left: 0;
     top: 50%;
+    left: 0;
     width: 100%;
-    text-align: center;
     color: #000;
+    text-align: center;
 }
 
 .description-container {
@@ -50,26 +50,26 @@ body {
 }
 
 .description {
+    padding: 50px 80px;
     color: #ddd;
     background-color: #282E34;
     text-align: center;
-    padding: 50px 80px;
     text-align: justify;
 }
 
 .caption span.border {
+    padding: 18px;
+    color: #f7f7f7;
     background-color: #4a4a4a;
     font-size: 25px;
-    color: #f7f7f7;
-    padding: 18px;
     letter-spacing: 10px;
 }
 
 h3 {
-    letter-spacing: 5px;
+    color: #111;
     text-transform: uppercase;
     font: 20px "Lato", sans-serif;
-    color: #111;
+    letter-spacing: 5px;
 }
 
 
