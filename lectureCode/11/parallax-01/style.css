@@ -45,6 +45,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, .8);
 }
 
 .hero .title {
@@ -141,8 +142,7 @@ body {
     font-weight: 300;
     font-size: 1.5em;
     text-align: center;
-    text-decoration: none;
-    list-style: none;
+    box-shadow: 0 -4px 10px rgba(0, 0, 0, .8);
 }
 
 .menu h1 {
